@@ -111,7 +111,7 @@ T is the temperature of the simulation
 lower_limit and upper_limit are the values of the CV between which the user wants to calculate the free energy.
 
 ## Project status, future work and contributions
-This is a work in progress and there may be bugs or omissions. GetFreeEnergy.py could be made more sophisticated, for example it could provide the box to box rate constants or allow for higher resolution free energies. More reaction coordinates could be added to BXD.py and experiments could be carried out to find out how BXD behaves with constraints which may allow for a longer timestep.
+This is a work in progress and there may be bugs or omissions. GetFreeEnergy.py could be made more sophisticated, for example it could provide the box to box rate constants or allow for higher resolution free energies. More reaction coordinates could be added to BXD.py and experiments could be done to find out how BXD behaves with constraints, which may allow for a longer simulationn timestep.
 
 Feel free to contact me via github for any questions, issues, ideas or offers of contribution.
 
