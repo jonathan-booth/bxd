@@ -123,8 +123,13 @@ This is provided with an MIT licence, see LICENCE.txt for details
 
 ## References
 [1]https://openmm.org/
+
 [2]https://pubs.acs.org/doi/10.1021/jp9074898
+
 [3]https://pubs.rsc.org/en/content/articlelanding/2016/fd/c6fd00138f
+
 [4]https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/syst.201900024
+
 [5]https://pubs.acs.org/doi/10.1021/ct200011e
+
 [6]https://etheses.whiterose.ac.uk/13101/
