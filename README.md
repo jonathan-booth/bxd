@@ -116,7 +116,7 @@ This is a work in progress and there may be bugs or omissions. GetFreeEnergy.py 
 Feel free to contact me via github for any questions, issues, ideas or offers of contribution.
 
 ## Authors and acknowledgment
-Created by Jonathan Booth at the STFC Hartree Centre, with help from the OpenMM Setup input generator (for the non-BXD parts of BXD.py). The author is grateful for the help provided by Peter Eastman at Stanford University via the OpenMM Forums, from Dmitrii Shalashilin at the University of Leeds, and from Dmitry Makhov at the University at Leeds.
+Created by Jonathan Booth at the STFC Hartree Centre, with help from the OpenMM Setup input generator (for the non-BXD parts of BXD.py). I am grateful for the help provided by Peter Eastman at Stanford University via the OpenMM Forums, from Dmitrii Shalashilin at the University of Leeds, and from Dmitry Makhov at the University at Leeds.
 
 ## License
 This is provided with an MIT licence, see LICENCE.txt for details
