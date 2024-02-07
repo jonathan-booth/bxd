@@ -28,9 +28,10 @@ git clone $REPOSITORY_PATH
 ## Usage
 1) cd into the bxd directory created by cloning this repository.
 
-2) Place your pdb file in the bxd directory. You can modify BXD.py so that PDBx/mmCIF files can be used, change the line <pdb = PDBFile(pdb_name)> to <pdb = PDBxFile(pdb_name)>. Alternatively, place the pdb file in any location and pass the path to BXD.py (instructions later).
+2) Place your pdb file in the bxd directory. You can modify BXD.py so that PDBx/mmCIF files can be used, change the line pdb = PDBFile(pdb_name) to pdb = PDBxFile(pdb_name)
+3) Alternatively, place the pdb file in any location and pass the path to BXD.py (instructions later).
 
-3) Open BXD.py and set the parameters at the start of the file. There is some skill to setting these parameters. See Appendix A of Jonathan Booth's thesis[6] for details of how to choose the best values, or contact me via Github. The parameters are as follows:
+4) Open BXD.py and set the parameters at the start of the file. There is some skill to setting these parameters. See Appendix A of Jonathan Booth's thesis[6] for details of how to choose the best values, or contact me via Github. The parameters are as follows:
 
 ### pdb_name (string or path)
 The name of your pdb file. If you have not placed your pdb file in the bxd directory then set this as the path to wherever it is located.
