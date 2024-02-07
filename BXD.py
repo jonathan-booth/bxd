@@ -28,7 +28,7 @@ threshold=200
 initial_direction='up'
 bxd_write_frequency=200
 
-# End of parameter section ------------------------------------------------------
+# End of parameter section ----------------------------------------------------
 
 CV_type=CV_type.lower()
 initial_direction=initial_direction.lower()
