@@ -11,23 +11,23 @@ https://www.python.org/
 https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 
 3) Create a conda environment with a chosen name, for example:
-4) 
+   
 conda create -n BXD
 
 5) Activate the environment:
-6) 
+   
 conda activate BXD
 
 7) Install OpenMM:
-8) 
+   
 conda install -c conda-forge openmm
 
 9) Install tqdm:
-10) 
+    
 conda install tqdm
 
 11) Clone this repository via either SSH or HTTPS:
-12) 
+    
 git clone $REPOSITORY_PATH
 
 ## Usage
