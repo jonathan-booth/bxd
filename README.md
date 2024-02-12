@@ -1,7 +1,7 @@
 # BXD
 
 ## Introduction
-This is an implementation of Boxed Molecular Dynamics in OpenMM,[1] an open-source simulation package. BXD is an enhanced sampling method for Molecular Dynamics (MD) simulation. A Collective Variable (CV) is defined which is a single dimensional metric to describe a process of interest. BXD works by placing reflecting boundaries in phase space along the CV which allow the trajectory to explore the free energy landscape along the CV. This allows simulation of processes which are far beyond the timescale of conventional MD simulations, as well as a calculation of the free energy along the CV. See refs [2] to [5] for a more detailed explanation. BXD is implemented as an input file in the OpenMM simulation script, with a custom integrator object carrying out the BXD part of the simulation.
+This is an implementation of Boxed Molecular Dynamics (BXD) in OpenMM,[1] an open-source simulation package. BXD is an enhanced sampling method for Molecular Dynamics (MD) simulation. A Collective Variable (CV) is defined which is a single dimensional metric to describe a process of interest. BXD works by placing reflecting boundaries in phase space along the CV which allow the trajectory to explore the free energy landscape along the CV. This allows simulation of processes which are far beyond the timescale of conventional MD simulations, as well as a calculation of the free energy along the CV. See refs [2] to [5] for a more detailed explanation. BXD is implemented as an input file in the OpenMM simulation script, with a custom integrator object carrying out the BXD part of the simulation.
 
 ## Installation
 1) Ensure you have a recent version of Python installed
