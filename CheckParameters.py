@@ -104,6 +104,9 @@ def CheckAtomSelectionForDistance(atom_selection,all_atom_indexes):
 def CheckAtomSelectionForRoG(atom_selection,all_atom_indexes,all_atom_types):
     atom_selection_words=['all','backbone']
 
+    if atom_selection in atom_selection_words:
+        return
+
     # if atom selection is done by keyword, check it is valid
     if isinstance(atom_selection,str) == True:
         if atom_selection not in atom_selection_words:
@@ -179,6 +182,7 @@ def CheckBounds(bounds):
 def GetSelectionInfoForRoG(atom_selection):
     if isinstance(atom_selection,str) == True:
         selection_type='single_word'
+        return selection_type
     
     all_ints=True
     all_strings=True
